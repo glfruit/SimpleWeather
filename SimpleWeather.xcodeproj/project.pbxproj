@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EC474F522D64504966378E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE688B09B6CB49199B53A81C /* libPods.a */; };
+		6E3D1768195AFB8B00AD5A3D /* HYClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D1767195AFB8B00AD5A3D /* HYClient.m */; };
+		6E3D176B195AFB9F00AD5A3D /* HYManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D176A195AFB9F00AD5A3D /* HYManager.m */; };
+		6E3D176E195AFBB700AD5A3D /* HYCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D176D195AFBB700AD5A3D /* HYCondition.m */; };
+		6E3D1771195AFBD400AD5A3D /* HYDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D1770195AFBD400AD5A3D /* HYDailyForecast.m */; };
+		6E7C95E519592450008BB4B4 /* HYController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C95E419592450008BB4B4 /* HYController.m */; };
 		6ECB3F801958509600F98AF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECB3F7F1958509600F98AF2 /* Foundation.framework */; };
 		6ECB3F821958509600F98AF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECB3F811958509600F98AF2 /* CoreGraphics.framework */; };
 		6ECB3F841958509600F98AF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECB3F831958509600F98AF2 /* UIKit.framework */; };
@@ -32,6 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E3D1766195AFB8B00AD5A3D /* HYClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYClient.h; sourceTree = "<group>"; };
+		6E3D1767195AFB8B00AD5A3D /* HYClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYClient.m; sourceTree = "<group>"; };
+		6E3D1769195AFB9F00AD5A3D /* HYManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYManager.h; sourceTree = "<group>"; };
+		6E3D176A195AFB9F00AD5A3D /* HYManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYManager.m; sourceTree = "<group>"; };
+		6E3D176C195AFBB700AD5A3D /* HYCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCondition.h; sourceTree = "<group>"; };
+		6E3D176D195AFBB700AD5A3D /* HYCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCondition.m; sourceTree = "<group>"; };
+		6E3D176F195AFBD400AD5A3D /* HYDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDailyForecast.h; sourceTree = "<group>"; };
+		6E3D1770195AFBD400AD5A3D /* HYDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDailyForecast.m; sourceTree = "<group>"; };
+		6E7C95E319592450008BB4B4 /* HYController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYController.h; sourceTree = "<group>"; };
+		6E7C95E419592450008BB4B4 /* HYController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYController.m; sourceTree = "<group>"; };
 		6ECB3F7C1958509600F98AF2 /* SimpleWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECB3F7F1958509600F98AF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6ECB3F811958509600F98AF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +64,8 @@
 		6ECB3FA01958509700F98AF2 /* SimpleWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		6ECB3FA21958509700F98AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ECB3FA41958509700F98AF2 /* SimpleWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleWeatherTests.m; sourceTree = "<group>"; };
+		A06B7B42A8554FB6A6D95060 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FE688B09B6CB49199B53A81C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 				6ECB3F821958509600F98AF2 /* CoreGraphics.framework in Frameworks */,
 				6ECB3F841958509600F98AF2 /* UIKit.framework in Frameworks */,
 				6ECB3F801958509600F98AF2 /* Foundation.framework in Frameworks */,
+				4EC474F522D64504966378E7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +96,21 @@
 		6ECB3F731958509600F98AF2 = {
 			isa = PBXGroup;
 			children = (
+				6E3D176F195AFBD400AD5A3D /* HYDailyForecast.h */,
+				6E3D1770195AFBD400AD5A3D /* HYDailyForecast.m */,
+				6E3D176C195AFBB700AD5A3D /* HYCondition.h */,
+				6E3D176D195AFBB700AD5A3D /* HYCondition.m */,
+				6E3D1769195AFB9F00AD5A3D /* HYManager.h */,
+				6E3D176A195AFB9F00AD5A3D /* HYManager.m */,
+				6E3D1766195AFB8B00AD5A3D /* HYClient.h */,
+				6E3D1767195AFB8B00AD5A3D /* HYClient.m */,
+				6E7C95E319592450008BB4B4 /* HYController.h */,
+				6E7C95E419592450008BB4B4 /* HYController.m */,
 				6ECB3F851958509600F98AF2 /* SimpleWeather */,
 				6ECB3F9E1958509700F98AF2 /* SimpleWeatherTests */,
 				6ECB3F7E1958509600F98AF2 /* Frameworks */,
 				6ECB3F7D1958509600F98AF2 /* Products */,
+				A06B7B42A8554FB6A6D95060 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +130,7 @@
 				6ECB3F811958509600F98AF2 /* CoreGraphics.framework */,
 				6ECB3F831958509600F98AF2 /* UIKit.framework */,
 				6ECB3F981958509600F98AF2 /* XCTest.framework */,
+				FE688B09B6CB49199B53A81C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ECB3FA81958509700F98AF2 /* Build configuration list for PBXNativeTarget "SimpleWeather" */;
 			buildPhases = (
+				08EA3BF9AE6641C0B8248530 /* Check Pods Manifest.lock */,
 				6ECB3F781958509600F98AF2 /* Sources */,
 				6ECB3F791958509600F98AF2 /* Frameworks */,
 				6ECB3F7A1958509600F98AF2 /* Resources */,
+				683E642B9D72461A944167F5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,12 +271,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08EA3BF9AE6641C0B8248530 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		683E642B9D72461A944167F5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6ECB3F781958509600F98AF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3D1771195AFBD400AD5A3D /* HYDailyForecast.m in Sources */,
 				6ECB3F8C1958509600F98AF2 /* main.m in Sources */,
+				6E3D176B195AFB9F00AD5A3D /* HYManager.m in Sources */,
+				6E3D176E195AFBB700AD5A3D /* HYCondition.m in Sources */,
+				6E3D1768195AFB8B00AD5A3D /* HYClient.m in Sources */,
+				6E7C95E519592450008BB4B4 /* HYController.m in Sources */,
 				6ECB3F901958509600F98AF2 /* HYAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +431,7 @@
 		};
 		6ECB3FA91958509700F98AF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06B7B42A8554FB6A6D95060 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -374,6 +446,7 @@
 		};
 		6ECB3FAA1958509700F98AF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06B7B42A8554FB6A6D95060 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -445,6 +518,7 @@
 				6ECB3FAA1958509700F98AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ECB3FAB1958509700F98AF2 /* Build configuration list for PBXNativeTarget "SimpleWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +527,7 @@
 				6ECB3FAD1958509700F98AF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

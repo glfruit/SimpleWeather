@@ -7,15 +7,21 @@
 //
 
 #import "HYAppDelegate.h"
+#import "HYController.h"
+#import <TSMessage.h>
 
 @implementation HYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.window.rootViewController = [[HYController alloc] init];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [TSMessage setDefaultViewController:self.window.rootViewController];
     return YES;
 }
 
